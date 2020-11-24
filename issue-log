@@ -1,0 +1,329 @@
+vma: 0x9ee6fa80, vma->vm_start: 0x72c52000, vma->vm_end: 0x72c5b000
+length: 0x00009000
+length: 0x00009000
+in For, i: 1, vma: 0x9ee6fa80, vma->vm_start: 0x72c52000, vma->vm_end: 0x72c5b000, len: 0x00009000
+here 1
+vma: 0x9ee6f780, vma->vm_start: 0x72c42000, vma->vm_end: 0x72c52000
+length: 0x00010000
+SBE VMA length truncated to io region
+new length: 0x0000ffff
+in For, i: 0, vma: 0x9ee6f780, vma->vm_start: 0x72c42000, vma->vm_end: 0x72c52000, len: 0x0000ffff
+here 1
+vma: 0x9ee6f600, vma->vm_start: 0x72c39000, vma->vm_end: 0x72c42000
+length: 0x00009000
+length: 0x00009000
+in For, i: 1, vma: 0x9ee6f600, vma->vm_start: 0x72c39000, vma->vm_end: 0x72c42000, len: 0x00009000
+SBEprolog            - leave
+InitStep_SBE_RGBl_to_RGBp - leave
+QTCC - mapped at a0e40000, irq 37
+QTCC 0 Reset
+QFIR - mapped at 9eed5844, irq 30
+QFIR - mapped at 9eed6044, irq 31
+QFIR 0 Reset
+QFIR 1 Reset
+QSCRN - mapped at 9eed6844, irq 33
+QSCRN - mapped at 9eed7044, irq 34
+QSCRN 0 Reset
+QSCRN 1 Reset
+QSCAL - mapped at 9eed7844, irq 32
+QSCL0 Reset
+QDSP0 Reset
+quasar-dsp 53f2018.dsp: quasar dsp at MMIO a0db6018 [053F2018-053F201B], a0f00000 [05200000-05247FFF] irq 38,39
+QDSP1 Reset
+quasar-dsp 53f201c.dsp: quasar dsp at MMIO a0dd401c [053F201C-053F201F], a0f80000 [05280000-052C7FFF] irq 40,41
+QDSP2 Reset
+quasar-dsp 53f2020.dsp: quasar dsp at MMIO a0dda020 [053F2020-053F2023], a1000000 [05300000-05347FFF] irq 42,43
+QDSP3 Reset
+quasar-dsp 53f2024.dsp: quasar dsp at MMIO a0df2024 [053F2024-053F2027], a1080000 [05380000-053C7FFF] irq 44,45
+qm3init qm3_probe ...
+quasar-cm3 5440000.qm30: Quasar M3
+qm3init qm3_probe ...
+quasar-cm3 5680000.qm31: Quasar M3
+M3 ord 0 hdl 25
+M3 ord 1 hdl 26
+HTTP document server at ./web
+TrayLinkInsertTray   - Created tray 0 for size US Letter
+NetServerThread      - Waiting for IP
+CPUrifBabysitter     ! Can't set affinity to cpu 1
+CPUrifBabysitter     - Starting CPU 1 as coproccessor 1
+qscanband_prolog     - M3 msg buffer, pa=0x88203000, va=0x5CB7D000, size=61440
+M3ScannerProlog      - M3ScannerProlog: Got M3 ordinal 0 = 0x497b48
+M3run                - M30 code loading to Reserved RAM
+M3run                - spmva=0x6c5ac000, spmdva=0x6c5ac004, pmc->spmdSize=262140
+M3setup              - Loading m3 0 text section of 17596 bytes at 0x6C5EC000
+M3setup              - dataOffset 000044c8
+M3setup              - Loading m3 0 data section of 1504 bytes at 0x6C5F04C8
+M3setup              - Loading m3 0 spm section of 4 bytes at 0x6C5AC000
+M3setup              - Loading m3 0 spmd section of 4 bytes at 0x6C5AC004
+M3run                - Starting m3 0 at pc=0x080002CD sp=0x08318D60
+qscanband_prolog     - Quasar Scanner
+M3PrintGetMsgBufferArea - Reserving 61440 bytes for M3 msg buffer at 88608000
+qlrds_prolog         - M3 msg buffer, pa=0x88608000, va=0x5CB6E000, size=61440
+M3PrinterProlog      - Got M3 ordinal 1 = 0x497ce0
+M3run                - M31 code loading to Reserved RAM
+M3run                - spmva=0x6c440740, spmdva=0x6c444b90, pmc->spmdSize=113584
+M3setup              - Loading m3 1 text section of 27856 bytes at 0x6C3AC000
+M3setup              - Loading m3 1 data section of 1640 bytes at 0x6C3B2CD0
+M30:SCA Clock:        333 MHz
+M30:HELLO M3!!!
+M3setup              - Loading m3 1 spm section of 17488 bytes at 0x6C440740
+M30:M3 Run before!!!
+M3setup              - Loading m3 1 spmd section of 90976 bytes at 0x6C444B90
+M3ScanBandDonethread - ADF paper remove
+M3ScanBandDonethread - Scan M3 Init done, get features
+M3ScanGetFeature     - Property, maxwidth=808 (100dpi), maxheight=1100 (100dpi), option=0x03, mode=0x03, orientation=0x02, adf=1
+M3ScanGetMode        - mode[0]: 1200, 1200,  3,  3
+M3ScanGetMode        - mode[1]: 600, 600,  3,  3
+M3ScanGetMode        - mode[2]: 300, 300,  3,  3
+M3run                - Starting m3 1 at pc=0x08600801 sp=0x0869470C
+M3ScanBandDonethread - ADF paper load
+qlrds_prolog         - Done at 21461 ms
+PQthread             - Thread started
+M31:HELLO M3!!!
+M31:M3 Run before!!!
+M31:tx: cmain start.
+M31:tx: app initialize.
+M31:Tx:Create Main Task
+M31:Main Task run.
+M31:Main task timer out cnt = 1
+M31:App Task 1 run.
+M31:Task 1 timer out cnt = 1
+M31:App Task 2 run.
+M31:Task 2 timer out cnt = 1
+M3ScanGetWPCBufferArea - Reserving 1044480 of 1048576 for WPT buffer at 88213000
+scan_wpt_support     - ScanM3: scan_wpt_support, 0x88213000, 0x5C901000, 1044480, 1, 3
+M3driverBabysitter   - WPC Memory -- pa=0x88213000, va=0x5C901000, size=1044480, support=1
+Quasar-USB gadget: using dwc3-gadget, OUT ep1out IN ep1in
+Quasar-USB gadget: using dwc3-gadget, OUT ep2out IN ep2in
+Quasar-USB gadget: Quasar-USB-Device, version: 2018.02.26
+Quasar-USB gadget: Quasar-USB ready
+USBDserverAddService - Accepting for service print-from-usb-host on endpoint 1
+USBDserverAddService - Accepting for service scan-to-usb on endpoint 2
+USBHserverAddService - Accepting for service Mass-Storage Automounter for usb class 0008
+Quasar-USB gadget: high-speed config #1: Quasar-Device
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:Main task timer out cnt = 2
+M31:Task 1 timer out cnt = 2
+M31:Task 2 timer out cnt = 2
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:Main task timer out cnt = 3
+M31:Task 1 timer out cnt = 3
+M31:Task 2 timer out cnt = 3
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:Main task timer out cnt = 4
+M31:Task 1 timer out cnt = 4
+M31:Task 2 timer out cnt = 4
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+NetServerThread      - No IP Address, not serving the network
+NetServerThread      - Waiting for IP
+M31:System Heart Beat.
+M31:Main task timer out cnt = 5
+M31:Task 1 timer out cnt = 5
+M31:Task 2 timer out cnt = 5
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:Main task timer out cnt = 6
+M31:Task 1 timer out cnt = 6
+M31:Task 2 timer out cnt = 6
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:Main task timer out cnt = 7
+M31:Task 1 timer out cnt = 7
+M31:Task 2 timer out cnt = 7
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:Main task timer out cnt = 8
+M31:Task 1 timer out cnt = 8
+M31:Task 2 timer out cnt = 8
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:Main task timer out cnt = 9
+M31:Task 1 timer out cnt = 9
+M31:Task 2 timer out cnt = 9
+NetServerThread      - No IP Address, not serving the network
+NetServerThread      - Waiting for IP
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:Main task timer out cnt = 10
+M31:Task 1 timer out cnt = 10
+M31:Task 2 timer out cnt = 10
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:Main task timer out cnt = 11
+M31:Task 1 timer out cnt = 11
+M31:Task 2 timer out cnt = 11
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:Main task timer out cnt = 12
+M31:Task 1 timer out cnt = 12
+M31:Task 2 timer out cnt = 12
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:Main task timer out cnt = 13
+M31:Task 1 timer out cnt = 13
+M31:Task 2 timer out cnt = 13
+NetServerThread      - No IP Address, not serving the network
+NetServerThread      - Waiting for IP
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:Main task timer out cnt = 14
+M31:Task 1 timer out cnt = 14
+M31:Task 2 timer out cnt = 14
+M31:System Heart Beat.
+M31:System Heart Beat.                                                                                                
+M31:System Heart Beat.                                                                                                
+M31:System Heart Beat.                                                                                                
+M31:System Heart Beat.                                                                                                
+M31:Main task timer out cnt = 15                                                                                      
+M31:Task 1 timer out cnt = 15
+M31:Task 2 timer out cnt = 15
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:Main task timer out cnt = 16
+M31:Task 1 timer out cnt = 16
+M31:Task 2 timer out cnt = 16
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:Main task timer out cnt = 17
+M31:Task 1 timer out cnt = 17
+M31:Task 2 timer out cnt = 17
+NetServerThread      - No IP Address, not serving the network
+NetServerThread      - Waiting for IP
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:Main task timer out cnt = 18
+M31:Task 1 timer out cnt = 18
+M31:Task 2 timer out cnt = 18
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:Main task timer out cnt = 19
+M31:Task 1 timer out cnt = 19
+M31:Task 2 timer out cnt = 19
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:System Heart Beat.
+M31:Main task timer out cnt = 20
+M31:Task 1 timer out cnt = 20
+M31:Task 2 timer out cnt = 20
+M31:System Heart Beat.
+M31:System Heart Beat.
+===================================[DDR SETUP]==================================
+[ZCAL] = 0A 0A 21 23
+[GPR1] = 00 00 1D 1E
+[GPR0] = 0A 0A 31 34
+[GDQSPRD] = 64, [WLPRD] = 65
+[GOP] =  0, Rank 0 =  3.29, Rank 1 =  0. 0
+[WL]  =  0, Rank 0 =  3.65, Rank 1 =  2. 0
+[GOM] =  0, Rank 0 =  3.29, Rank 1 =  0. 0
+[GOF] =  X, Rank 0 =  3.29, Rank 1 =  0. 0
+[WLA] =  0, Rank 0 =  1.64, Rank 1 =  2. 0
+[RdBD] = 0, [WrBD] = 0, [WrEye] = 0, [RdEye] = 0
+
+
+-----------------------------------------
+Gnu C Version: 4.9.4
+Operating System: Standalone on target 6300
+Build location:   on 5471f5e1ca75 running x86_64 in dir /data/pitaya/work/bootrom/LagerX01
+Build date:       Nov 16 2020 at 06:18:58
+CPU Clock:        666 MHz
+CCI Clock:        400 MHz
+DSP Clock:        333 MHz
+IPM1 Clock:       285 MHz
+IPM2 Clock:       285 MHz
+PRT Clock:        333 MHz
+SCA Clock:        333 MHz
+SYS Clock:        250 MHz
+PCI Clock:          0 MHz
+SYS PLL:          2000 MHz
+DDR PLL:          1860 MHz
+VIDPLL1:            0 MHz
+DRAM:             512 MB
+-----------------------------------------
+cached heap =0 (0)  uncached =81000000 (520093696)
+       uc1Start=81000000, uc1Size=117440512
+       uc2Start=88a00000, uc2Size=392167424
+       M3Start=88000000,  M3End=889fffff
+
+------ Qbit6300 Boot Main ------
+       Booting from SPI Serial FLASH
+RGMII freq: 2000 div: 4
+Fail if count expires
+appmain Failure returned from BIOSGMACconfig function
+       MAC address: aa.bb.63.19.d3.01
+
+
+Press 1 to download from USB (and write to SPI FLASH)
+      2 to run image in SPI FLASH
+      3 to set a new MAC address
+      4 to download app from USB (and write to eMMC FLASH)
+      5 to run image in eMMC
+-> BOOT - Download firmware...
+BIOSfirmwareUpgradePollUSB - waiting for f/wUSB DEVT ConnectDone at High-speed
+USB DEVT ConnectDone at High-speed
+
+Data file
+ -- Complete --         
+.17608704 bytes of data written OK
+BOOT - Ready for next firmware load
+BIOSfirmwareUpgradePollUSB - waiting for f/wBad Magic Number: 00000000
+Unexpected return to ROM Boot
+Bad Magic Number: 02000000
+Unexpected return to ROM Boot
+
+
